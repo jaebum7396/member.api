@@ -1,5 +1,11 @@
 # member.api
 
+### 설명 
+JWT를 이용한 회원가입/로그인 API 입니다.
+
+### 구현 방법 
+Java11, Spring Boot2.7.7, JPA, 스프링 데이타 JPA, H2, Gradle, JUNIT
+
 ### Swagger 주소
 http://localhost:8080/swagger-ui/
 
@@ -8,9 +14,6 @@ H2 데이터베이스 설치가 필요합니다.
 [DB 정보]  
 ![캡처](https://user-images.githubusercontent.com/38182229/209821159-523aadad-b6a4-4115-9e5b-e7d8c41bcb52.PNG)  
 이후 그래들 빌드 후 Application 실행
-
-### 구현 방법 및 구현 여부 
-Java11, Spring Boot2.7.7, JPA, 스프링 데이타 JPA, H2, Gradle, JUNIT
 
 #### 1. 회원 가입 API.
 가입 가능한 유저 정보를 담고 있는 AvailableUserEntity 테이블 조회하여 존재할 시에 회원가입 진행  
