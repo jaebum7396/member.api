@@ -4,7 +4,7 @@
 JWT를 이용한 회원가입/로그인 API 입니다.
 
 ### 구현 방법 
-Java11, Spring Boot2.7.7, JPA, 스프링 데이타 JPA, H2, Gradle, JUNIT
+Java11, Spring Boot2.7.7, 스프링 데이타 JPA, H2 database, Gradle, JUNIT
 
 ### Swagger 주소
 http://localhost:8080/swagger-ui/
