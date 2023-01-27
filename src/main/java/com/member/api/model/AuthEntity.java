@@ -11,7 +11,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Builder
 @EqualsAndHashCode(callSuper=false)
-public class AuthEntity extends BaseEntity {
+public class AuthEntity{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @JsonIgnore
