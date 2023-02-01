@@ -1,7 +1,7 @@
 # member.api
 
 ### 설명 
-JWT를 이용한 회원가입/로그인 API 입니다.
+JWT를 이용한 회원가입/로그인 API
 
 ### 구현 방법 
 Java11, Spring Boot2.7.7, 스프링 시큐리티, 스프링 데이타 JPA, H2 database, Gradle, JUNIT
